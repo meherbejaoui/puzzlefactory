@@ -1,0 +1,144 @@
+{
+  "format": 1,
+  "id": "2026-09-14-5",
+  "size": 5,
+  "seed": "2026-09-14",
+  "pattern": "wedge-6",
+  "generatedAt": "2026-09-14T04:44:17Z",
+  "grid": [
+    "##ACE",
+    "#SWAN",
+    "BOARD",
+    "AMID#",
+    "NET##"
+  ],
+  "numbers": [
+    [
+      -1,
+      -1,
+      1,
+      2,
+      3
+    ],
+    [
+      -1,
+      4,
+      0,
+      0,
+      0
+    ],
+    [
+      5,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      6,
+      0,
+      0,
+      0,
+      -1
+    ],
+    [
+      7,
+      0,
+      0,
+      -1,
+      -1
+    ]
+  ],
+  "entries": [
+    {
+      "number": 1,
+      "direction": "across",
+      "row": 0,
+      "col": 2,
+      "length": 3,
+      "answer": "QUNF",
+      "clue": "Tennis serve winner"
+    },
+    {
+      "number": 1,
+      "direction": "down",
+      "row": 0,
+      "col": 2,
+      "length": 5,
+      "answer": "QVdBSVQ=",
+      "clue": "Wait for"
+    },
+    {
+      "number": 2,
+      "direction": "down",
+      "row": 0,
+      "col": 3,
+      "length": 4,
+      "answer": "Q0FSRA==",
+      "clue": "Deck member"
+    },
+    {
+      "number": 3,
+      "direction": "down",
+      "row": 0,
+      "col": 4,
+      "length": 3,
+      "answer": "RU5E",
+      "clue": "Finish"
+    },
+    {
+      "number": 4,
+      "direction": "across",
+      "row": 1,
+      "col": 1,
+      "length": 4,
+      "answer": "U1dBTg==",
+      "clue": "Graceful water bird"
+    },
+    {
+      "number": 4,
+      "direction": "down",
+      "row": 1,
+      "col": 1,
+      "length": 4,
+      "answer": "U09NRQ==",
+      "clue": "A few"
+    },
+    {
+      "number": 5,
+      "direction": "across",
+      "row": 2,
+      "col": 0,
+      "length": 5,
+      "answer": "Qk9BUkQ=",
+      "clue": "Plank"
+    },
+    {
+      "number": 5,
+      "direction": "down",
+      "row": 2,
+      "col": 0,
+      "length": 3,
+      "answer": "QkFO",
+      "clue": "Forbid"
+    },
+    {
+      "number": 6,
+      "direction": "across",
+      "row": 3,
+      "col": 0,
+      "length": 4,
+      "answer": "QU1JRA==",
+      "clue": "Surrounded by"
+    },
+    {
+      "number": 7,
+      "direction": "across",
+      "row": 4,
+      "col": 0,
+      "length": 3,
+      "answer": "TkVU",
+      "clue": "Tennis divider"
+    }
+  ]
+}
