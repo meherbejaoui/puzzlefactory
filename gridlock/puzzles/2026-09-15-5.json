@@ -1,0 +1,144 @@
+{
+  "format": 1,
+  "id": "2026-09-15-5",
+  "size": 5,
+  "seed": "2026-09-15",
+  "pattern": "wedge-6-alt",
+  "generatedAt": "2026-09-15T04:43:46Z",
+  "grid": [
+    "ACE##",
+    "ROLL#",
+    "CABIN",
+    "#TONE",
+    "##WET"
+  ],
+  "numbers": [
+    [
+      1,
+      2,
+      3,
+      -1,
+      -1
+    ],
+    [
+      4,
+      0,
+      0,
+      5,
+      -1
+    ],
+    [
+      6,
+      0,
+      0,
+      0,
+      7
+    ],
+    [
+      -1,
+      8,
+      0,
+      0,
+      0
+    ],
+    [
+      -1,
+      -1,
+      9,
+      0,
+      0
+    ]
+  ],
+  "entries": [
+    {
+      "number": 1,
+      "direction": "across",
+      "row": 0,
+      "col": 0,
+      "length": 3,
+      "answer": "QUNF",
+      "clue": "Top pilot"
+    },
+    {
+      "number": 1,
+      "direction": "down",
+      "row": 0,
+      "col": 0,
+      "length": 3,
+      "answer": "QVJD",
+      "clue": "Curved path"
+    },
+    {
+      "number": 2,
+      "direction": "down",
+      "row": 0,
+      "col": 1,
+      "length": 4,
+      "answer": "Q09BVA==",
+      "clue": "Winter wear"
+    },
+    {
+      "number": 3,
+      "direction": "down",
+      "row": 0,
+      "col": 2,
+      "length": 5,
+      "answer": "RUxCT1c=",
+      "clue": "Arm joint"
+    },
+    {
+      "number": 4,
+      "direction": "across",
+      "row": 1,
+      "col": 0,
+      "length": 4,
+      "answer": "Uk9MTA==",
+      "clue": "Tumble along"
+    },
+    {
+      "number": 5,
+      "direction": "down",
+      "row": 1,
+      "col": 3,
+      "length": 4,
+      "answer": "TElORQ==",
+      "clue": "Straight mark"
+    },
+    {
+      "number": 6,
+      "direction": "across",
+      "row": 2,
+      "col": 0,
+      "length": 5,
+      "answer": "Q0FCSU4=",
+      "clue": "Log dwelling"
+    },
+    {
+      "number": 7,
+      "direction": "down",
+      "row": 2,
+      "col": 4,
+      "length": 3,
+      "answer": "TkVU",
+      "clue": "Clear profit"
+    },
+    {
+      "number": 8,
+      "direction": "across",
+      "row": 3,
+      "col": 1,
+      "length": 4,
+      "answer": "VE9ORQ==",
+      "clue": "Sound quality"
+    },
+    {
+      "number": 9,
+      "direction": "across",
+      "row": 4,
+      "col": 2,
+      "length": 3,
+      "answer": "V0VU",
+      "clue": "Soaked"
+    }
+  ]
+}
