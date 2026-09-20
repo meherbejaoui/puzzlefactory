@@ -1,0 +1,144 @@
+{
+  "format": 1,
+  "id": "2026-09-20-5",
+  "size": 5,
+  "seed": "2026-09-20",
+  "pattern": "pinwheel-4",
+  "generatedAt": "2026-09-20T04:44:47Z",
+  "grid": [
+    "IRIS#",
+    "COST#",
+    "EASEL",
+    "#SURE",
+    "#TENT"
+  ],
+  "numbers": [
+    [
+      1,
+      2,
+      3,
+      4,
+      -1
+    ],
+    [
+      5,
+      0,
+      0,
+      0,
+      -1
+    ],
+    [
+      6,
+      0,
+      0,
+      0,
+      7
+    ],
+    [
+      -1,
+      8,
+      0,
+      0,
+      0
+    ],
+    [
+      -1,
+      9,
+      0,
+      0,
+      0
+    ]
+  ],
+  "entries": [
+    {
+      "number": 1,
+      "direction": "across",
+      "row": 0,
+      "col": 0,
+      "length": 4,
+      "answer": "SVJJUw==",
+      "clue": "Spring flower"
+    },
+    {
+      "number": 1,
+      "direction": "down",
+      "row": 0,
+      "col": 0,
+      "length": 3,
+      "answer": "SUNF",
+      "clue": "Frozen water"
+    },
+    {
+      "number": 2,
+      "direction": "down",
+      "row": 0,
+      "col": 1,
+      "length": 5,
+      "answer": "Uk9BU1Q=",
+      "clue": "Oven cook"
+    },
+    {
+      "number": 3,
+      "direction": "down",
+      "row": 0,
+      "col": 2,
+      "length": 5,
+      "answer": "SVNTVUU=",
+      "clue": "Problem"
+    },
+    {
+      "number": 4,
+      "direction": "down",
+      "row": 0,
+      "col": 3,
+      "length": 5,
+      "answer": "U1RFUk4=",
+      "clue": "Strict"
+    },
+    {
+      "number": 5,
+      "direction": "across",
+      "row": 1,
+      "col": 0,
+      "length": 4,
+      "answer": "Q09TVA==",
+      "clue": "Price"
+    },
+    {
+      "number": 6,
+      "direction": "across",
+      "row": 2,
+      "col": 0,
+      "length": 5,
+      "answer": "RUFTRUw=",
+      "clue": "Painter's stand"
+    },
+    {
+      "number": 7,
+      "direction": "down",
+      "row": 2,
+      "col": 4,
+      "length": 3,
+      "answer": "TEVU",
+      "clue": "Allow"
+    },
+    {
+      "number": 8,
+      "direction": "across",
+      "row": 3,
+      "col": 1,
+      "length": 4,
+      "answer": "U1VSRQ==",
+      "clue": "Certain"
+    },
+    {
+      "number": 9,
+      "direction": "across",
+      "row": 4,
+      "col": 1,
+      "length": 4,
+      "answer": "VEVOVA==",
+      "clue": "Camper's shelter"
+    }
+  ]
+}
