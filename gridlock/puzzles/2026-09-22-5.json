@@ -1,0 +1,144 @@
+{
+  "format": 1,
+  "id": "2026-09-22-5",
+  "size": 5,
+  "seed": "2026-09-22",
+  "pattern": "pinwheel-4",
+  "generatedAt": "2026-09-22T04:41:54Z",
+  "grid": [
+    "LIST#",
+    "ONCE#",
+    "GLAND",
+    "#ELSE",
+    "#TEEN"
+  ],
+  "numbers": [
+    [
+      1,
+      2,
+      3,
+      4,
+      -1
+    ],
+    [
+      5,
+      0,
+      0,
+      0,
+      -1
+    ],
+    [
+      6,
+      0,
+      0,
+      0,
+      7
+    ],
+    [
+      -1,
+      8,
+      0,
+      0,
+      0
+    ],
+    [
+      -1,
+      9,
+      0,
+      0,
+      0
+    ]
+  ],
+  "entries": [
+    {
+      "number": 1,
+      "direction": "across",
+      "row": 0,
+      "col": 0,
+      "length": 4,
+      "answer": "TElTVA==",
+      "clue": "Items in order"
+    },
+    {
+      "number": 1,
+      "direction": "down",
+      "row": 0,
+      "col": 0,
+      "length": 3,
+      "answer": "TE9H",
+      "clue": "Firewood piece"
+    },
+    {
+      "number": 2,
+      "direction": "down",
+      "row": 0,
+      "col": 1,
+      "length": 5,
+      "answer": "SU5MRVQ=",
+      "clue": "Narrow bay"
+    },
+    {
+      "number": 3,
+      "direction": "down",
+      "row": 0,
+      "col": 2,
+      "length": 5,
+      "answer": "U0NBTEU=",
+      "clue": "Fish covering"
+    },
+    {
+      "number": 4,
+      "direction": "down",
+      "row": 0,
+      "col": 3,
+      "length": 5,
+      "answer": "VEVOU0U=",
+      "clue": "Strung tight"
+    },
+    {
+      "number": 5,
+      "direction": "across",
+      "row": 1,
+      "col": 0,
+      "length": 4,
+      "answer": "T05DRQ==",
+      "clue": "One time"
+    },
+    {
+      "number": 6,
+      "direction": "across",
+      "row": 2,
+      "col": 0,
+      "length": 5,
+      "answer": "R0xBTkQ=",
+      "clue": "Hormone maker"
+    },
+    {
+      "number": 7,
+      "direction": "down",
+      "row": 2,
+      "col": 4,
+      "length": 3,
+      "answer": "REVO",
+      "clue": "Lion's home"
+    },
+    {
+      "number": 8,
+      "direction": "across",
+      "row": 3,
+      "col": 1,
+      "length": 4,
+      "answer": "RUxTRQ==",
+      "clue": "Otherwise"
+    },
+    {
+      "number": 9,
+      "direction": "across",
+      "row": 4,
+      "col": 1,
+      "length": 4,
+      "answer": "VEVFTg==",
+      "clue": "Adolescent"
+    }
+  ]
+}
