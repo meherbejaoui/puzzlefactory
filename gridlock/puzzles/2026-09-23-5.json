@@ -1,0 +1,144 @@
+{
+  "format": 1,
+  "id": "2026-09-23-5",
+  "size": 5,
+  "seed": "2026-09-23",
+  "pattern": "wedge-6-alt",
+  "generatedAt": "2026-09-23T04:36:18Z",
+  "grid": [
+    "ACE##",
+    "GOLD#",
+    "ORBIT",
+    "#NONE",
+    "##WEE"
+  ],
+  "numbers": [
+    [
+      1,
+      2,
+      3,
+      -1,
+      -1
+    ],
+    [
+      4,
+      0,
+      0,
+      5,
+      -1
+    ],
+    [
+      6,
+      0,
+      0,
+      0,
+      7
+    ],
+    [
+      -1,
+      8,
+      0,
+      0,
+      0
+    ],
+    [
+      -1,
+      -1,
+      9,
+      0,
+      0
+    ]
+  ],
+  "entries": [
+    {
+      "number": 1,
+      "direction": "across",
+      "row": 0,
+      "col": 0,
+      "length": 3,
+      "answer": "QUNF",
+      "clue": "Top pilot"
+    },
+    {
+      "number": 1,
+      "direction": "down",
+      "row": 0,
+      "col": 0,
+      "length": 3,
+      "answer": "QUdP",
+      "clue": "In the past"
+    },
+    {
+      "number": 2,
+      "direction": "down",
+      "row": 0,
+      "col": 1,
+      "length": 4,
+      "answer": "Q09STg==",
+      "clue": "Cob crop"
+    },
+    {
+      "number": 3,
+      "direction": "down",
+      "row": 0,
+      "col": 2,
+      "length": 5,
+      "answer": "RUxCT1c=",
+      "clue": "Arm joint"
+    },
+    {
+      "number": 4,
+      "direction": "across",
+      "row": 1,
+      "col": 0,
+      "length": 4,
+      "answer": "R09MRA==",
+      "clue": "Olympic medal metal"
+    },
+    {
+      "number": 5,
+      "direction": "down",
+      "row": 1,
+      "col": 3,
+      "length": 4,
+      "answer": "RElORQ==",
+      "clue": "Eat formally"
+    },
+    {
+      "number": 6,
+      "direction": "across",
+      "row": 2,
+      "col": 0,
+      "length": 5,
+      "answer": "T1JCSVQ=",
+      "clue": "Path around a planet"
+    },
+    {
+      "number": 7,
+      "direction": "down",
+      "row": 2,
+      "col": 4,
+      "length": 3,
+      "answer": "VEVF",
+      "clue": "Golf peg"
+    },
+    {
+      "number": 8,
+      "direction": "across",
+      "row": 3,
+      "col": 1,
+      "length": 4,
+      "answer": "Tk9ORQ==",
+      "clue": "Not any"
+    },
+    {
+      "number": 9,
+      "direction": "across",
+      "row": 4,
+      "col": 2,
+      "length": 3,
+      "answer": "V0VF",
+      "clue": "Tiny"
+    }
+  ]
+}
