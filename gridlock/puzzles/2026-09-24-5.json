@@ -1,0 +1,144 @@
+{
+  "format": 1,
+  "id": "2026-09-24-5",
+  "size": 5,
+  "seed": "2026-09-24",
+  "pattern": "diagonal-2",
+  "generatedAt": "2026-09-24T04:34:41Z",
+  "grid": [
+    "#SAME",
+    "SOLID",
+    "ALONG",
+    "LANCE",
+    "TREE#"
+  ],
+  "numbers": [
+    [
+      -1,
+      1,
+      2,
+      3,
+      4
+    ],
+    [
+      5,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      6,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      7,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      8,
+      0,
+      0,
+      0,
+      -1
+    ]
+  ],
+  "entries": [
+    {
+      "number": 1,
+      "direction": "across",
+      "row": 0,
+      "col": 1,
+      "length": 4,
+      "answer": "U0FNRQ==",
+      "clue": "Not different"
+    },
+    {
+      "number": 1,
+      "direction": "down",
+      "row": 0,
+      "col": 1,
+      "length": 5,
+      "answer": "U09MQVI=",
+      "clue": "Of the sun"
+    },
+    {
+      "number": 2,
+      "direction": "down",
+      "row": 0,
+      "col": 2,
+      "length": 5,
+      "answer": "QUxPTkU=",
+      "clue": "By oneself"
+    },
+    {
+      "number": 3,
+      "direction": "down",
+      "row": 0,
+      "col": 3,
+      "length": 5,
+      "answer": "TUlOQ0U=",
+      "clue": "Chop finely"
+    },
+    {
+      "number": 4,
+      "direction": "down",
+      "row": 0,
+      "col": 4,
+      "length": 4,
+      "answer": "RURHRQ==",
+      "clue": "Border"
+    },
+    {
+      "number": 5,
+      "direction": "across",
+      "row": 1,
+      "col": 0,
+      "length": 5,
+      "answer": "U09MSUQ=",
+      "clue": "Not liquid"
+    },
+    {
+      "number": 5,
+      "direction": "down",
+      "row": 1,
+      "col": 0,
+      "length": 4,
+      "answer": "U0FMVA==",
+      "clue": "Pepper's partner"
+    },
+    {
+      "number": 6,
+      "direction": "across",
+      "row": 2,
+      "col": 0,
+      "length": 5,
+      "answer": "QUxPTkc=",
+      "clue": "Beside"
+    },
+    {
+      "number": 7,
+      "direction": "across",
+      "row": 3,
+      "col": 0,
+      "length": 5,
+      "answer": "TEFOQ0U=",
+      "clue": "Knight's spear"
+    },
+    {
+      "number": 8,
+      "direction": "across",
+      "row": 4,
+      "col": 0,
+      "length": 4,
+      "answer": "VFJFRQ==",
+      "clue": "Trunk and branches"
+    }
+  ]
+}
