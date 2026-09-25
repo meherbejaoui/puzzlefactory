@@ -1,0 +1,144 @@
+{
+  "format": 1,
+  "id": "2026-09-25-5",
+  "size": 5,
+  "seed": "2026-09-25",
+  "pattern": "stairs-4",
+  "generatedAt": "2026-09-25T04:45:19Z",
+  "grid": [
+    "##MAP",
+    "PHONE",
+    "LATTE",
+    "ENTER",
+    "AGO##"
+  ],
+  "numbers": [
+    [
+      -1,
+      -1,
+      1,
+      2,
+      3
+    ],
+    [
+      4,
+      5,
+      0,
+      0,
+      0
+    ],
+    [
+      6,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      7,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      8,
+      0,
+      0,
+      -1,
+      -1
+    ]
+  ],
+  "entries": [
+    {
+      "number": 1,
+      "direction": "across",
+      "row": 0,
+      "col": 2,
+      "length": 3,
+      "answer": "TUFQ",
+      "clue": "Road guide"
+    },
+    {
+      "number": 1,
+      "direction": "down",
+      "row": 0,
+      "col": 2,
+      "length": 5,
+      "answer": "TU9UVE8=",
+      "clue": "Guiding saying"
+    },
+    {
+      "number": 2,
+      "direction": "down",
+      "row": 0,
+      "col": 3,
+      "length": 4,
+      "answer": "QU5URQ==",
+      "clue": "Poker starter"
+    },
+    {
+      "number": 3,
+      "direction": "down",
+      "row": 0,
+      "col": 4,
+      "length": 4,
+      "answer": "UEVFUg==",
+      "clue": "Equal"
+    },
+    {
+      "number": 4,
+      "direction": "across",
+      "row": 1,
+      "col": 0,
+      "length": 5,
+      "answer": "UEhPTkU=",
+      "clue": "Pocket caller"
+    },
+    {
+      "number": 4,
+      "direction": "down",
+      "row": 1,
+      "col": 0,
+      "length": 4,
+      "answer": "UExFQQ==",
+      "clue": "Earnest request"
+    },
+    {
+      "number": 5,
+      "direction": "down",
+      "row": 1,
+      "col": 1,
+      "length": 4,
+      "answer": "SEFORw==",
+      "clue": "Suspend"
+    },
+    {
+      "number": 6,
+      "direction": "across",
+      "row": 2,
+      "col": 0,
+      "length": 5,
+      "answer": "TEFUVEU=",
+      "clue": "Coffee with milk"
+    },
+    {
+      "number": 7,
+      "direction": "across",
+      "row": 3,
+      "col": 0,
+      "length": 5,
+      "answer": "RU5URVI=",
+      "clue": "Go inside"
+    },
+    {
+      "number": 8,
+      "direction": "across",
+      "row": 4,
+      "col": 0,
+      "length": 3,
+      "answer": "QUdP",
+      "clue": "In the past"
+    }
+  ]
+}
