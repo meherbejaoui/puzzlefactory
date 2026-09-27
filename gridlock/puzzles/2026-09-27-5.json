@@ -1,0 +1,144 @@
+{
+  "format": 1,
+  "id": "2026-09-27-5",
+  "size": 5,
+  "seed": "2026-09-27",
+  "pattern": "corners-4",
+  "generatedAt": "2026-09-27T05:09:24Z",
+  "grid": [
+    "#PAY#",
+    "RAPID",
+    "UPPER",
+    "BELLY",
+    "#RED#"
+  ],
+  "numbers": [
+    [
+      -1,
+      1,
+      2,
+      3,
+      -1
+    ],
+    [
+      4,
+      0,
+      0,
+      0,
+      5
+    ],
+    [
+      6,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      7,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      -1,
+      8,
+      0,
+      0,
+      -1
+    ]
+  ],
+  "entries": [
+    {
+      "number": 1,
+      "direction": "across",
+      "row": 0,
+      "col": 1,
+      "length": 3,
+      "answer": "UEFZ",
+      "clue": "Wages"
+    },
+    {
+      "number": 1,
+      "direction": "down",
+      "row": 0,
+      "col": 1,
+      "length": 5,
+      "answer": "UEFQRVI=",
+      "clue": "Newsprint"
+    },
+    {
+      "number": 2,
+      "direction": "down",
+      "row": 0,
+      "col": 2,
+      "length": 5,
+      "answer": "QVBQTEU=",
+      "clue": "Orchard fruit"
+    },
+    {
+      "number": 3,
+      "direction": "down",
+      "row": 0,
+      "col": 3,
+      "length": 5,
+      "answer": "WUlFTEQ=",
+      "clue": "Give way"
+    },
+    {
+      "number": 4,
+      "direction": "across",
+      "row": 1,
+      "col": 0,
+      "length": 5,
+      "answer": "UkFQSUQ=",
+      "clue": "Very fast"
+    },
+    {
+      "number": 4,
+      "direction": "down",
+      "row": 1,
+      "col": 0,
+      "length": 3,
+      "answer": "UlVC",
+      "clue": "Massage"
+    },
+    {
+      "number": 5,
+      "direction": "down",
+      "row": 1,
+      "col": 4,
+      "length": 3,
+      "answer": "RFJZ",
+      "clue": "Not wet"
+    },
+    {
+      "number": 6,
+      "direction": "across",
+      "row": 2,
+      "col": 0,
+      "length": 5,
+      "answer": "VVBQRVI=",
+      "clue": "Higher"
+    },
+    {
+      "number": 7,
+      "direction": "across",
+      "row": 3,
+      "col": 0,
+      "length": 5,
+      "answer": "QkVMTFk=",
+      "clue": "Stomach"
+    },
+    {
+      "number": 8,
+      "direction": "across",
+      "row": 4,
+      "col": 1,
+      "length": 3,
+      "answer": "UkVE",
+      "clue": "Fire truck color"
+    }
+  ]
+}
