@@ -1,0 +1,144 @@
+{
+  "format": 1,
+  "id": "2026-09-28-5",
+  "size": 5,
+  "seed": "2026-09-28",
+  "pattern": "diagonal-2",
+  "generatedAt": "2026-09-28T05:12:15Z",
+  "grid": [
+    "#WISH",
+    "MINCE",
+    "UNDER",
+    "SCENE",
+    "TEXT#"
+  ],
+  "numbers": [
+    [
+      -1,
+      1,
+      2,
+      3,
+      4
+    ],
+    [
+      5,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      6,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      7,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      8,
+      0,
+      0,
+      0,
+      -1
+    ]
+  ],
+  "entries": [
+    {
+      "number": 1,
+      "direction": "across",
+      "row": 0,
+      "col": 1,
+      "length": 4,
+      "answer": "V0lTSA==",
+      "clue": "Birthday candle thought"
+    },
+    {
+      "number": 1,
+      "direction": "down",
+      "row": 0,
+      "col": 1,
+      "length": 5,
+      "answer": "V0lOQ0U=",
+      "clue": "Flinch in pain"
+    },
+    {
+      "number": 2,
+      "direction": "down",
+      "row": 0,
+      "col": 2,
+      "length": 5,
+      "answer": "SU5ERVg=",
+      "clue": "Book's back list"
+    },
+    {
+      "number": 3,
+      "direction": "down",
+      "row": 0,
+      "col": 3,
+      "length": 5,
+      "answer": "U0NFTlQ=",
+      "clue": "Perfume smell"
+    },
+    {
+      "number": 4,
+      "direction": "down",
+      "row": 0,
+      "col": 4,
+      "length": 4,
+      "answer": "SEVSRQ==",
+      "clue": "At this spot"
+    },
+    {
+      "number": 5,
+      "direction": "across",
+      "row": 1,
+      "col": 0,
+      "length": 5,
+      "answer": "TUlOQ0U=",
+      "clue": "Chop finely"
+    },
+    {
+      "number": 5,
+      "direction": "down",
+      "row": 1,
+      "col": 0,
+      "length": 4,
+      "answer": "TVVTVA==",
+      "clue": "Have to"
+    },
+    {
+      "number": 6,
+      "direction": "across",
+      "row": 2,
+      "col": 0,
+      "length": 5,
+      "answer": "VU5ERVI=",
+      "clue": "Below"
+    },
+    {
+      "number": 7,
+      "direction": "across",
+      "row": 3,
+      "col": 0,
+      "length": 5,
+      "answer": "U0NFTkU=",
+      "clue": "Movie segment"
+    },
+    {
+      "number": 8,
+      "direction": "across",
+      "row": 4,
+      "col": 0,
+      "length": 4,
+      "answer": "VEVYVA==",
+      "clue": "Phone message"
+    }
+  ]
+}

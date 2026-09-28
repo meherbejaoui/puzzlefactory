@@ -1,0 +1,76 @@
+{
+  "format": 1,
+  "id": "2026-09-28-10x10",
+  "kind": "daily",
+  "title": null,
+  "rows": 10,
+  "cols": 10,
+  "rowClues": [
+    [],
+    [
+      2,
+      3
+    ],
+    [
+      3,
+      3
+    ],
+    [
+      8
+    ],
+    [
+      9
+    ],
+    [
+      7
+    ],
+    [
+      6
+    ],
+    [
+      5
+    ],
+    [],
+    []
+  ],
+  "colClues": [
+    [
+      2
+    ],
+    [
+      4
+    ],
+    [
+      4
+    ],
+    [
+      3
+    ],
+    [
+      5
+    ],
+    [
+      7
+    ],
+    [
+      7
+    ],
+    [
+      7
+    ],
+    [
+      4
+    ],
+    [
+      3
+    ]
+  ],
+  "solution": "AABnAOcA/wB/wB/AD8APgAAAAAA=",
+  "difficulty": {
+    "passes": 29,
+    "grade": "medium"
+  },
+  "seed": "2026-09-28",
+  "generatedAt": "2026-09-28T05:12:15Z",
+  "slug": null
+}
