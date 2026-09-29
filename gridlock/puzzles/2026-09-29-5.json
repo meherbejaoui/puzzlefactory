@@ -1,0 +1,144 @@
+{
+  "format": 1,
+  "id": "2026-09-29-5",
+  "size": 5,
+  "seed": "2026-09-29",
+  "pattern": "corners-4",
+  "generatedAt": "2026-09-29T05:34:36Z",
+  "grid": [
+    "#PEN#",
+    "CORAL",
+    "AWAKE",
+    "RESET",
+    "#RED#"
+  ],
+  "numbers": [
+    [
+      -1,
+      1,
+      2,
+      3,
+      -1
+    ],
+    [
+      4,
+      0,
+      0,
+      0,
+      5
+    ],
+    [
+      6,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      7,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      -1,
+      8,
+      0,
+      0,
+      -1
+    ]
+  ],
+  "entries": [
+    {
+      "number": 1,
+      "direction": "across",
+      "row": 0,
+      "col": 1,
+      "length": 3,
+      "answer": "UEVO",
+      "clue": "Writing tool"
+    },
+    {
+      "number": 1,
+      "direction": "down",
+      "row": 0,
+      "col": 1,
+      "length": 5,
+      "answer": "UE9XRVI=",
+      "clue": "Strength"
+    },
+    {
+      "number": 2,
+      "direction": "down",
+      "row": 0,
+      "col": 2,
+      "length": 5,
+      "answer": "RVJBU0U=",
+      "clue": "Rub out"
+    },
+    {
+      "number": 3,
+      "direction": "down",
+      "row": 0,
+      "col": 3,
+      "length": 5,
+      "answer": "TkFLRUQ=",
+      "clue": "Bare"
+    },
+    {
+      "number": 4,
+      "direction": "across",
+      "row": 1,
+      "col": 0,
+      "length": 5,
+      "answer": "Q09SQUw=",
+      "clue": "Reef builder"
+    },
+    {
+      "number": 4,
+      "direction": "down",
+      "row": 1,
+      "col": 0,
+      "length": 3,
+      "answer": "Q0FS",
+      "clue": "Driveway occupant"
+    },
+    {
+      "number": 5,
+      "direction": "down",
+      "row": 1,
+      "col": 4,
+      "length": 3,
+      "answer": "TEVU",
+      "clue": "Allow"
+    },
+    {
+      "number": 6,
+      "direction": "across",
+      "row": 2,
+      "col": 0,
+      "length": 5,
+      "answer": "QVdBS0U=",
+      "clue": "Not sleeping"
+    },
+    {
+      "number": 7,
+      "direction": "across",
+      "row": 3,
+      "col": 0,
+      "length": 5,
+      "answer": "UkVTRVQ=",
+      "clue": "Start over"
+    },
+    {
+      "number": 8,
+      "direction": "across",
+      "row": 4,
+      "col": 1,
+      "length": 3,
+      "answer": "UkVE",
+      "clue": "Fire truck color"
+    }
+  ]
+}
