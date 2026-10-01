@@ -1,0 +1,144 @@
+{
+  "format": 1,
+  "id": "2026-10-01-5",
+  "size": 5,
+  "seed": "2026-10-01",
+  "pattern": "corners-4",
+  "generatedAt": "2026-10-01T05:39:00Z",
+  "grid": [
+    "#CAP#",
+    "SHRUB",
+    "EAGLE",
+    "TRUST",
+    "#TEE#"
+  ],
+  "numbers": [
+    [
+      -1,
+      1,
+      2,
+      3,
+      -1
+    ],
+    [
+      4,
+      0,
+      0,
+      0,
+      5
+    ],
+    [
+      6,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      7,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      -1,
+      8,
+      0,
+      0,
+      -1
+    ]
+  ],
+  "entries": [
+    {
+      "number": 1,
+      "direction": "across",
+      "row": 0,
+      "col": 1,
+      "length": 3,
+      "answer": "Q0FQ",
+      "clue": "Baseball hat"
+    },
+    {
+      "number": 1,
+      "direction": "down",
+      "row": 0,
+      "col": 1,
+      "length": 5,
+      "answer": "Q0hBUlQ=",
+      "clue": "Data picture"
+    },
+    {
+      "number": 2,
+      "direction": "down",
+      "row": 0,
+      "col": 2,
+      "length": 5,
+      "answer": "QVJHVUU=",
+      "clue": "Quarrel"
+    },
+    {
+      "number": 3,
+      "direction": "down",
+      "row": 0,
+      "col": 3,
+      "length": 5,
+      "answer": "UFVMU0U=",
+      "clue": "Heartbeat"
+    },
+    {
+      "number": 4,
+      "direction": "across",
+      "row": 1,
+      "col": 0,
+      "length": 5,
+      "answer": "U0hSVUI=",
+      "clue": "Small bush"
+    },
+    {
+      "number": 4,
+      "direction": "down",
+      "row": 1,
+      "col": 0,
+      "length": 3,
+      "answer": "U0VU",
+      "clue": "Group of items"
+    },
+    {
+      "number": 5,
+      "direction": "down",
+      "row": 1,
+      "col": 4,
+      "length": 3,
+      "answer": "QkVU",
+      "clue": "Wager"
+    },
+    {
+      "number": 6,
+      "direction": "across",
+      "row": 2,
+      "col": 0,
+      "length": 5,
+      "answer": "RUFHTEU=",
+      "clue": "Bald national bird"
+    },
+    {
+      "number": 7,
+      "direction": "across",
+      "row": 3,
+      "col": 0,
+      "length": 5,
+      "answer": "VFJVU1Q=",
+      "clue": "Rely on"
+    },
+    {
+      "number": 8,
+      "direction": "across",
+      "row": 4,
+      "col": 1,
+      "length": 3,
+      "answer": "VEVF",
+      "clue": "Golf peg"
+    }
+  ]
+}
