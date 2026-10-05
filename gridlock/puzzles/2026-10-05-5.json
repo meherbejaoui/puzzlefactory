@@ -1,0 +1,144 @@
+{
+  "format": 1,
+  "id": "2026-10-05-5",
+  "size": 5,
+  "seed": "2026-10-05",
+  "pattern": "corners-4",
+  "generatedAt": "2026-10-05T05:24:33Z",
+  "grid": [
+    "#LAB#",
+    "BORED",
+    "EVERY",
+    "GENRE",
+    "#RAY#"
+  ],
+  "numbers": [
+    [
+      -1,
+      1,
+      2,
+      3,
+      -1
+    ],
+    [
+      4,
+      0,
+      0,
+      0,
+      5
+    ],
+    [
+      6,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      7,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      -1,
+      8,
+      0,
+      0,
+      -1
+    ]
+  ],
+  "entries": [
+    {
+      "number": 1,
+      "direction": "across",
+      "row": 0,
+      "col": 1,
+      "length": 3,
+      "answer": "TEFC",
+      "clue": "Science room"
+    },
+    {
+      "number": 1,
+      "direction": "down",
+      "row": 0,
+      "col": 1,
+      "length": 5,
+      "answer": "TE9WRVI=",
+      "clue": "Sweetheart"
+    },
+    {
+      "number": 2,
+      "direction": "down",
+      "row": 0,
+      "col": 2,
+      "length": 5,
+      "answer": "QVJFTkE=",
+      "clue": "Sports venue"
+    },
+    {
+      "number": 3,
+      "direction": "down",
+      "row": 0,
+      "col": 3,
+      "length": 5,
+      "answer": "QkVSUlk=",
+      "clue": "Small juicy fruit"
+    },
+    {
+      "number": 4,
+      "direction": "across",
+      "row": 1,
+      "col": 0,
+      "length": 5,
+      "answer": "Qk9SRUQ=",
+      "clue": "Restless from dullness"
+    },
+    {
+      "number": 4,
+      "direction": "down",
+      "row": 1,
+      "col": 0,
+      "length": 3,
+      "answer": "QkVH",
+      "clue": "Plead"
+    },
+    {
+      "number": 5,
+      "direction": "down",
+      "row": 1,
+      "col": 4,
+      "length": 3,
+      "answer": "RFlF",
+      "clue": "Fabric color changer"
+    },
+    {
+      "number": 6,
+      "direction": "across",
+      "row": 2,
+      "col": 0,
+      "length": 5,
+      "answer": "RVZFUlk=",
+      "clue": "Each one"
+    },
+    {
+      "number": 7,
+      "direction": "across",
+      "row": 3,
+      "col": 0,
+      "length": 5,
+      "answer": "R0VOUkU=",
+      "clue": "Category of art"
+    },
+    {
+      "number": 8,
+      "direction": "across",
+      "row": 4,
+      "col": 1,
+      "length": 3,
+      "answer": "UkFZ",
+      "clue": "Beam of light"
+    }
+  ]
+}
