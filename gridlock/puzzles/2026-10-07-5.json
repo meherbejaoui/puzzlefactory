@@ -1,0 +1,144 @@
+{
+  "format": 1,
+  "id": "2026-10-07-5",
+  "size": 5,
+  "seed": "2026-10-07",
+  "pattern": "corners-4",
+  "generatedAt": "2026-10-07T05:44:31Z",
+  "grid": [
+    "#PIG#",
+    "TIGER",
+    "ALLEY",
+    "GOOSE",
+    "#TOE#"
+  ],
+  "numbers": [
+    [
+      -1,
+      1,
+      2,
+      3,
+      -1
+    ],
+    [
+      4,
+      0,
+      0,
+      0,
+      5
+    ],
+    [
+      6,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      7,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      -1,
+      8,
+      0,
+      0,
+      -1
+    ]
+  ],
+  "entries": [
+    {
+      "number": 1,
+      "direction": "across",
+      "row": 0,
+      "col": 1,
+      "length": 3,
+      "answer": "UElH",
+      "clue": "Barnyard oinker"
+    },
+    {
+      "number": 1,
+      "direction": "down",
+      "row": 0,
+      "col": 1,
+      "length": 5,
+      "answer": "UElMT1Q=",
+      "clue": "Cockpit boss"
+    },
+    {
+      "number": 2,
+      "direction": "down",
+      "row": 0,
+      "col": 2,
+      "length": 5,
+      "answer": "SUdMT08=",
+      "clue": "Ice dome"
+    },
+    {
+      "number": 3,
+      "direction": "down",
+      "row": 0,
+      "col": 3,
+      "length": 5,
+      "answer": "R0VFU0U=",
+      "clue": "Honking flock"
+    },
+    {
+      "number": 4,
+      "direction": "across",
+      "row": 1,
+      "col": 0,
+      "length": 5,
+      "answer": "VElHRVI=",
+      "clue": "Striped big cat"
+    },
+    {
+      "number": 4,
+      "direction": "down",
+      "row": 1,
+      "col": 0,
+      "length": 3,
+      "answer": "VEFH",
+      "clue": "Playground chase"
+    },
+    {
+      "number": 5,
+      "direction": "down",
+      "row": 1,
+      "col": 4,
+      "length": 3,
+      "answer": "UllF",
+      "clue": "Deli bread"
+    },
+    {
+      "number": 6,
+      "direction": "across",
+      "row": 2,
+      "col": 0,
+      "length": 5,
+      "answer": "QUxMRVk=",
+      "clue": "Narrow lane"
+    },
+    {
+      "number": 7,
+      "direction": "across",
+      "row": 3,
+      "col": 0,
+      "length": 5,
+      "answer": "R09PU0U=",
+      "clue": "Honking bird"
+    },
+    {
+      "number": 8,
+      "direction": "across",
+      "row": 4,
+      "col": 1,
+      "length": 3,
+      "answer": "VE9F",
+      "clue": "Foot digit"
+    }
+  ]
+}
