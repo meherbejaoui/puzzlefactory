@@ -199,3 +199,51 @@ class TestIncrementalRebuild:
         assert (out_dir / "p" / "third-5x5.html").is_file()
         index_text = (out_dir / "index.html").read_text(encoding="utf-8")
         assert "third-5x5" in index_text
+
+
+class TestStaticPageText:
+    """The readable HTML `build` writes into the player's mount point."""
+
+    @staticmethod
+    def mount_point(page_text):
+        # Everything the page says before any script runs: the mount point's
+        # contents, up to the inlined puzzle JSON that follows it.
+        start = page_text.index('<div id="cellblock-root"')
+        end = page_text.index('<script type="application/json"')
+        return page_text[start:end]
+
+    def test_rules_and_clues_are_readable_without_javascript(self, tmp_path):
+        puzzles_dir = make_dailies(tmp_path, [("readable", 5)])
+        daily, _ = load_puzzles(puzzles_dir)
+        out_dir = tmp_path / "site"
+        build_site(puzzles_dir, out_dir)
+        static = self.mount_point(
+            (out_dir / "p" / "readable-5x5.html").read_text(encoding="utf-8")
+        )
+
+        assert "%%" not in static
+        assert "How to play" in static
+        first_row = " ".join(str(n) for n in daily[0]["rowClues"][0]) or "0"
+        assert f"Rows, top to bottom: {first_row}" in static
+        assert daily[0]["solution"] not in static
+
+    def test_gallery_title_stays_out_of_the_static_text(self, tmp_path):
+        puzzles_dir = make_dailies(tmp_path, [("one", 5)])
+        add_gallery(puzzles_dir, tmp_path, {"zebra": GALLERY_A})
+        out_dir = tmp_path / "site"
+        build_site(puzzles_dir, out_dir)
+        static = self.mount_point(
+            (out_dir / "p" / "gallery-zebra.html").read_text(encoding="utf-8")
+        )
+
+        assert "Zebra" not in static
+        assert "gallery nonogram" in static
+
+    def test_index_explains_the_puzzle(self, tmp_path):
+        puzzles_dir = make_dailies(tmp_path, [("about", 5)])
+        out_dir = tmp_path / "site"
+        build_site(puzzles_dir, out_dir)
+        index_text = (out_dir / "index.html").read_text(encoding="utf-8")
+
+        assert "How to play" in index_text
+        assert "How the puzzles are made" in index_text

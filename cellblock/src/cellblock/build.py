@@ -104,11 +104,82 @@ def _page_title(puzzle: dict[str, Any], site_title: str) -> str:
     return f"{site_title} — {puzzle['id']}"
 
 
+HOW_TO_PLAY = (
+    "Fill in cells to reveal a hidden picture. The numbers beside each row "
+    "and above each column say how the filled cells in that line are "
+    "grouped: each number is one unbroken block of filled cells, listed in "
+    "the order the blocks appear, with at least one empty cell between "
+    "blocks. A line labeled 3 1 holds a block of three filled cells and, "
+    "after a gap, a single filled cell. A line labeled 0 is empty. Use every "
+    "row and column together to work out which cells must be filled."
+)
+
+HOW_ITS_MADE = (
+    "Any picture can be turned into a nonogram, but most pictures make a "
+    "puzzle that stalls and forces a guess. Cellblock draws candidate "
+    "pictures from the day's date and keeps only the ones a line-by-line "
+    "logic solver can finish completely, so every puzzle here has exactly "
+    "one solution and never needs a guess. Each puzzle is graded easy, "
+    "medium or hard by how much work the solver needed. The gallery puzzles "
+    "are hand-drawn pixel art, checked the same way."
+)
+
+
+def _render_static(puzzle: dict[str, Any], page_title: str) -> str:
+    """Readable HTML for the player's mount point.
+
+    The player is drawn by JavaScript into ``#cellblock-root``, so without
+    this the shipped page is a title and an empty ``<div>``: anything that
+    reads it without running scripts (some crawlers, link previewers, a
+    browser with scripts blocked) gets no text at all. This writes the
+    rules and the puzzle's clue numbers into the mount point as plain HTML.
+    ``mountPlayer`` replaces the mount point's contents when it runs, so
+    players see the interactive puzzle exactly as before.
+
+    A gallery puzzle's title is never written here, for the same reason
+    ``_page_title`` leaves it out: it is the surprise at the end.
+    """
+
+    def clue_text(clues: list[list[int]]) -> str:
+        return " &middot; ".join(" ".join(str(n) for n in run) if run else "0" for run in clues)
+
+    kind = "gallery" if puzzle["kind"] == GALLERY else "daily"
+    grade = puzzle["difficulty"]["grade"]
+
+    return f"""<nav class="cb-breadcrumb" aria-label="Breadcrumb">
+  <a href="https://www.meherbejaoui.com/">meherbejaoui.com</a>
+  <span aria-hidden="true">/</span>
+  <a href="../../index.html">Puzzle Factories</a>
+  <span aria-hidden="true">/</span>
+  <a href="../index.html">Cellblock</a>
+</nav>
+<header class="cb-header">
+  <h1 class="cb-title">{escape(page_title)}</h1>
+</header>
+<div class="cb-static">
+  <p>A {puzzle["rows"]}&times;{puzzle["cols"]} {kind} nonogram, graded {escape(grade)}. It can be
+  solved by logic alone, with no guessing.</p>
+  <h2>How to play</h2>
+  <p>{escape(HOW_TO_PLAY)}</p>
+  <p>Click or tap a cell to fill it, and again to erase it. Mark a cell you know is
+  empty with the &#10007; tool or a right-click. Drag to fill or mark several cells at once.
+  On a keyboard, the arrow keys move, Space fills and X marks. Progress is saved in this
+  browser.</p>
+  <h2>Clues</h2>
+  <p>Rows, top to bottom: {clue_text(puzzle["rowClues"])}</p>
+  <p>Columns, left to right: {clue_text(puzzle["colClues"])}</p>
+  <p class="cb-static-note">The grid is interactive and needs JavaScript.
+  <a href="../index.html">All Cellblock puzzles</a></p>
+</div>"""
+
+
 def _render_page(template: str, puzzle: dict[str, Any], css: str, core_js: str, ui_js: str, site_title: str) -> str:
     puzzle_json = json.dumps(puzzle, ensure_ascii=False).replace("</", "<\\/")
+    page_title = _page_title(puzzle, site_title)
 
     html = template
-    html = html.replace("%%TITLE%%", escape(_page_title(puzzle, site_title)))
+    html = html.replace("%%TITLE%%", escape(page_title))
+    html = html.replace("%%STATIC_HTML%%", _render_static(puzzle, page_title))
     html = html.replace("%%PUZZLE_JSON%%", puzzle_json)
     html = html.replace("%%CSS%%", css)
     html = html.replace("%%CORE_JS%%", core_js)
@@ -212,6 +283,7 @@ li {{ margin-bottom: 0.6rem; }}
 .idx-badge {{ background: var(--accent); color: var(--accent-contrast); padding: 0.15rem 0.55rem;
               border-radius: 999px; font-size: 0.78rem; font-weight: 700; }}
 .idx-empty {{ color: var(--text-muted); padding: 0.85rem 1.1rem; }}
+.idx-about p {{ margin: 0 0 0.75rem; font-size: 0.94rem; }}
 .idx-footer {{ margin-top: 3rem; padding-top: 1.25rem; border-top: 1px solid var(--border);
                font-size: 0.85rem; color: var(--text-muted); }}
 .idx-footer a {{ color: var(--text-muted); text-decoration: underline; }}
@@ -234,6 +306,12 @@ li {{ margin-bottom: 0.6rem; }}
 <ul>
 {gallery_rows}
 </ul>
+<section class="idx-about">
+<h2>How to play</h2>
+<p>{escape(HOW_TO_PLAY)}</p>
+<h2>How the puzzles are made</h2>
+<p>{escape(HOW_ITS_MADE)}</p>
+</section>
 <footer class="idx-footer">
   Built and maintained by <a href="https://www.meherbejaoui.com/">Meher Bejaoui</a>.
   <a href="https://github.com/meherbejaoui/puzzlefactory">Source on GitHub</a>.

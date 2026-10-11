@@ -198,6 +198,23 @@
     transition: transform 0.15s ease;
   }
 
+  .about {
+    margin-top: 2.75rem;
+  }
+
+  .about h2 {
+    font-size: 1.05rem;
+    font-weight: 700;
+    margin: 1.75rem 0 0.4rem;
+  }
+
+  .about p {
+    margin: 0 0 0.75rem;
+    color: var(--text-muted);
+    font-size: 0.95rem;
+    max-width: 62ch;
+  }
+
   footer {
     margin-top: 3rem;
     padding-top: 1.5rem;
@@ -300,6 +317,28 @@
     <span class="card-arrow" aria-hidden="true">&rarr;</span>
   </a>
 </div>
+<section class="about">
+  <h2>What "certified fair" means</h2>
+  <p>Every puzzle here is checked by a program before it is published. A crossword
+  only ships if the generator filled the whole grid with real, clued words. A nonogram
+  only ships if a logic solver can finish it line by line without ever guessing, which
+  also proves it has exactly one solution.</p>
+  <h2>Gridlock: a 5&times;5 mini crossword</h2>
+  <p>Filling a small, fully interlocked grid is the hard part of making a crossword.
+  Gridlock does it with a constraint-satisfaction search with backtracking over a curated
+  list of more than 2,500 clued words. The search is seeded by the date, so everyone gets
+  the same puzzle on the same day. The player has keyboard navigation, check and reveal,
+  a timer and saved progress.</p>
+  <h2>Cellblock: a 10&times;10 nonogram</h2>
+  <p>A nonogram is easy to make and hard to make well: most pictures give a puzzle that
+  stalls and forces a guess. Cellblock draws candidate pictures from the day's date and
+  keeps only the ones its solver can crack completely, then grades each one easy, medium
+  or hard. A gallery of hand-drawn pixel-art puzzles sits beside the daily ones.</p>
+  <h2>How the site runs</h2>
+  <p>Both generators are plain Python with no dependencies, and both players are plain
+  HTML, CSS and JavaScript. The site is rebuilt once a day. There are no accounts and no
+  server: your progress is saved in your own browser.</p>
+</section>
 <footer>
   Built and maintained by <a href="https://www.meherbejaoui.com/">Meher Bejaoui</a>.
   Puzzles regenerate every day at 00:10 UTC. Plain HTML, CSS and JS &mdash;
