@@ -1,0 +1,144 @@
+{
+  "format": 1,
+  "id": "2026-10-11-5",
+  "size": 5,
+  "seed": "2026-10-11",
+  "pattern": "pinwheel-4",
+  "generatedAt": "2026-10-11T05:34:51Z",
+  "grid": [
+    "SHIP#",
+    "PAGE#",
+    "ATLAS",
+    "#CORE",
+    "#HOLE"
+  ],
+  "numbers": [
+    [
+      1,
+      2,
+      3,
+      4,
+      -1
+    ],
+    [
+      5,
+      0,
+      0,
+      0,
+      -1
+    ],
+    [
+      6,
+      0,
+      0,
+      0,
+      7
+    ],
+    [
+      -1,
+      8,
+      0,
+      0,
+      0
+    ],
+    [
+      -1,
+      9,
+      0,
+      0,
+      0
+    ]
+  ],
+  "entries": [
+    {
+      "number": 1,
+      "direction": "across",
+      "row": 0,
+      "col": 0,
+      "length": 4,
+      "answer": "U0hJUA==",
+      "clue": "Ocean vessel"
+    },
+    {
+      "number": 1,
+      "direction": "down",
+      "row": 0,
+      "col": 0,
+      "length": 3,
+      "answer": "U1BB",
+      "clue": "Massage retreat"
+    },
+    {
+      "number": 2,
+      "direction": "down",
+      "row": 0,
+      "col": 1,
+      "length": 5,
+      "answer": "SEFUQ0g=",
+      "clue": "Break out of a shell"
+    },
+    {
+      "number": 3,
+      "direction": "down",
+      "row": 0,
+      "col": 2,
+      "length": 5,
+      "answer": "SUdMT08=",
+      "clue": "Ice dome"
+    },
+    {
+      "number": 4,
+      "direction": "down",
+      "row": 0,
+      "col": 3,
+      "length": 5,
+      "answer": "UEVBUkw=",
+      "clue": "Oyster gem"
+    },
+    {
+      "number": 5,
+      "direction": "across",
+      "row": 1,
+      "col": 0,
+      "length": 4,
+      "answer": "UEFHRQ==",
+      "clue": "Book sheet"
+    },
+    {
+      "number": 6,
+      "direction": "across",
+      "row": 2,
+      "col": 0,
+      "length": 5,
+      "answer": "QVRMQVM=",
+      "clue": "Book of maps"
+    },
+    {
+      "number": 7,
+      "direction": "down",
+      "row": 2,
+      "col": 4,
+      "length": 3,
+      "answer": "U0VF",
+      "clue": "View"
+    },
+    {
+      "number": 8,
+      "direction": "across",
+      "row": 3,
+      "col": 1,
+      "length": 4,
+      "answer": "Q09SRQ==",
+      "clue": "Apple center"
+    },
+    {
+      "number": 9,
+      "direction": "across",
+      "row": 4,
+      "col": 1,
+      "length": 4,
+      "answer": "SE9MRQ==",
+      "clue": "Doughnut center"
+    }
+  ]
+}
