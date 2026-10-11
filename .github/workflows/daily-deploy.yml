@@ -105,6 +105,7 @@ jobs:
           cp LICENSE-CONTENT.md combined/LICENSE-CONTENT.md
           cp -r gridlock/site combined/gridlock
           cp -r cellblock/site combined/cellblock
+          python tools/sitemap.py combined https://www.meherbejaoui.com/puzzlefactory/
 
       - uses: actions/upload-pages-artifact@v3
         with:
