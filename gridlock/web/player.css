@@ -85,6 +85,33 @@ a {
   padding: 1rem 0.85rem 2rem;
 }
 
+/* Plain page text that `build` writes into the mount point (build.py
+   `_render_static`). It is what the page says before the player mounts and
+   for anyone reading without JavaScript; mountPlayer() replaces it. */
+.gl-static {
+  max-width: 640px;
+  margin: 0 0 1.1rem;
+  font-size: 0.94rem;
+}
+
+.gl-static p {
+  margin: 0 0 0.6rem;
+}
+
+.gl-static h2 {
+  font-size: 0.85rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--gl-text-muted);
+  margin: 1rem 0 0.4rem;
+}
+
+.gl-static-note {
+  margin-top: 1.5rem;
+  color: var(--gl-text-muted);
+}
+
 .gl-breadcrumb {
   display: flex;
   align-items: center;

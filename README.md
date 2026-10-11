@@ -33,6 +33,12 @@ Pages is enabled (`Settings → Pages → Build and deployment → Source: GitHu
 Actions` — the one manual step no workflow can do for you). Each project's
 own README documents what that workflow does for it specifically.
 
+Every page carries readable text in its HTML, not only once scripts have run:
+the landing page and each project's index explain how the puzzles are made and
+played, and each puzzle page is built with its clues and rules written into the
+player's mount point (`_render_static` in each project's `build.py`). The
+player replaces that text when it mounts.
+
 ## Monorepo notes
 
 - **One GitHub Pages site per repo, one shared deploy workflow.** Both

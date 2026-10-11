@@ -84,6 +84,83 @@ def load_puzzles(puzzles_dir: str | Path) -> list[dict[str, Any]]:
     return puzzles
 
 
+HOW_TO_PLAY = (
+    "Select a square and type. Selecting the same square again switches "
+    "between across and down. The arrow keys move one square, Tab jumps to "
+    "the next word and Shift+Tab to the previous one, and Backspace deletes. "
+    "The Check and Reveal menus work on one letter, one word or the whole "
+    "puzzle. Progress is saved in this browser."
+)
+
+HOW_ITS_MADE = (
+    "Each grid is filled by a constraint-satisfaction search with "
+    "backtracking over a curated list of more than 2,500 clued words, "
+    "laid into one of a set of symmetric block patterns. The search is "
+    "seeded by the date, so everyone gets the same puzzle on the same day. "
+    "A new puzzle is generated once a day and nothing is fetched from a "
+    "server while you play."
+)
+
+
+def _render_static(puzzle: dict[str, Any], page_title: str) -> str:
+    """Readable HTML for the player's mount point.
+
+    The player is drawn by JavaScript into ``#gridlock-root``, so without
+    this the shipped page is a title and an empty ``<div>``: anything that
+    reads it without running scripts (some crawlers, link previewers, a
+    browser with scripts blocked) gets no text at all. This writes the
+    puzzle's clues and the rules into the mount point as plain HTML.
+    ``mountPlayer`` replaces the mount point's contents when it runs, so
+    players see the interactive puzzle exactly as before.
+
+    Only clues are written. Answers stay where they already were, base64
+    encoded inside the puzzle JSON, never as readable text.
+    """
+    size = puzzle["size"]
+    entries = puzzle["entries"]
+
+    def clue_items(direction: str) -> str:
+        return "\n".join(
+            f'<li><span class="gl-clue-number">{entry["number"]}</span>'
+            f'<span>{escape(entry["clue"])} ({entry["length"]} letters)</span></li>'
+            for entry in entries
+            if entry["direction"] == direction
+        )
+
+    return f"""<nav class="gl-breadcrumb" aria-label="Breadcrumb">
+  <a href="https://www.meherbejaoui.com/">meherbejaoui.com</a>
+  <span aria-hidden="true">/</span>
+  <a href="../../index.html">Puzzle Factories</a>
+  <span aria-hidden="true">/</span>
+  <a href="../index.html">Gridlock</a>
+</nav>
+<header class="gl-header">
+  <h1 class="gl-title">{escape(page_title)}</h1>
+</header>
+<div class="gl-static">
+  <p>A {size}&times;{size} mini crossword with {len(entries)} clues. Fill every white
+  square so that each word answers its clue, across and down.</p>
+  <h2>How to play</h2>
+  <p>{escape(HOW_TO_PLAY)}</p>
+</div>
+<div class="gl-clues">
+  <div class="gl-clue-list">
+    <h2>Across</h2>
+    <ol>
+{clue_items("across")}
+    </ol>
+  </div>
+  <div class="gl-clue-list">
+    <h2>Down</h2>
+    <ol>
+{clue_items("down")}
+    </ol>
+  </div>
+</div>
+<p class="gl-static gl-static-note">The grid is interactive and needs JavaScript.
+<a href="../index.html">All Gridlock puzzles</a></p>"""
+
+
 def _render_page(
     template: str, puzzle: dict[str, Any], css: str, core_js: str, ui_js: str, site_title: str
 ) -> str:
@@ -93,6 +170,7 @@ def _render_page(
 
     html = template
     html = html.replace("%%TITLE%%", escape(page_title))
+    html = html.replace("%%STATIC_HTML%%", _render_static(stripped, page_title))
     html = html.replace("%%PUZZLE_JSON%%", puzzle_json)
     html = html.replace("%%CSS%%", css)
     html = html.replace("%%CORE_JS%%", core_js)
@@ -185,6 +263,7 @@ li {{ margin-bottom: 0.6rem; }}
 .idx-badge {{ background: var(--accent); color: var(--accent-contrast); padding: 0.15rem 0.55rem;
               border-radius: 999px; font-size: 0.78rem; font-weight: 700; }}
 .idx-empty {{ color: var(--text-muted); padding: 0.85rem 1.1rem; }}
+.idx-about p {{ margin: 0 0 0.75rem; font-size: 0.94rem; }}
 .idx-footer {{ margin-top: 3rem; padding-top: 1.25rem; border-top: 1px solid var(--border);
                font-size: 0.85rem; color: var(--text-muted); }}
 .idx-footer a {{ color: var(--text-muted); text-decoration: underline; }}
@@ -202,6 +281,12 @@ li {{ margin-bottom: 0.6rem; }}
 <ul>
 {list_html}
 </ul>
+<section class="idx-about">
+<h2>How to play</h2>
+<p>Fill every white square so that each word answers its clue, across and down. {escape(HOW_TO_PLAY)}</p>
+<h2>How the puzzles are made</h2>
+<p>{escape(HOW_ITS_MADE)}</p>
+</section>
 <footer class="idx-footer">
   Built and maintained by <a href="https://www.meherbejaoui.com/">Meher Bejaoui</a>.
   <a href="https://github.com/meherbejaoui/puzzlefactory">Source on GitHub</a>.
