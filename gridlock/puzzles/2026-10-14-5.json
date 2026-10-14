@@ -1,0 +1,144 @@
+{
+  "format": 1,
+  "id": "2026-10-14-5",
+  "size": 5,
+  "seed": "2026-10-14",
+  "pattern": "stairs-4",
+  "generatedAt": "2026-10-14T04:42:44Z",
+  "grid": [
+    "##DIG",
+    "THERE",
+    "ROBIN",
+    "AMUSE",
+    "MET##"
+  ],
+  "numbers": [
+    [
+      -1,
+      -1,
+      1,
+      2,
+      3
+    ],
+    [
+      4,
+      5,
+      0,
+      0,
+      0
+    ],
+    [
+      6,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      7,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      8,
+      0,
+      0,
+      -1,
+      -1
+    ]
+  ],
+  "entries": [
+    {
+      "number": 1,
+      "direction": "across",
+      "row": 0,
+      "col": 2,
+      "length": 3,
+      "answer": "RElH",
+      "clue": "Excavate"
+    },
+    {
+      "number": 1,
+      "direction": "down",
+      "row": 0,
+      "col": 2,
+      "length": 5,
+      "answer": "REVCVVQ=",
+      "clue": "First appearance"
+    },
+    {
+      "number": 2,
+      "direction": "down",
+      "row": 0,
+      "col": 3,
+      "length": 4,
+      "answer": "SVJJUw==",
+      "clue": "Spring flower"
+    },
+    {
+      "number": 3,
+      "direction": "down",
+      "row": 0,
+      "col": 4,
+      "length": 4,
+      "answer": "R0VORQ==",
+      "clue": "Heredity unit"
+    },
+    {
+      "number": 4,
+      "direction": "across",
+      "row": 1,
+      "col": 0,
+      "length": 5,
+      "answer": "VEhFUkU=",
+      "clue": "At that place"
+    },
+    {
+      "number": 4,
+      "direction": "down",
+      "row": 1,
+      "col": 0,
+      "length": 4,
+      "answer": "VFJBTQ==",
+      "clue": "Streetcar"
+    },
+    {
+      "number": 5,
+      "direction": "down",
+      "row": 1,
+      "col": 1,
+      "length": 4,
+      "answer": "SE9NRQ==",
+      "clue": "Where you live"
+    },
+    {
+      "number": 6,
+      "direction": "across",
+      "row": 2,
+      "col": 0,
+      "length": 5,
+      "answer": "Uk9CSU4=",
+      "clue": "Red-breasted bird"
+    },
+    {
+      "number": 7,
+      "direction": "across",
+      "row": 3,
+      "col": 0,
+      "length": 5,
+      "answer": "QU1VU0U=",
+      "clue": "Entertain"
+    },
+    {
+      "number": 8,
+      "direction": "across",
+      "row": 4,
+      "col": 0,
+      "length": 3,
+      "answer": "TUVU",
+      "clue": "Encountered"
+    }
+  ]
+}
