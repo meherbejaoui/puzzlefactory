@@ -1,0 +1,144 @@
+{
+  "format": 1,
+  "id": "2026-10-17-5",
+  "size": 5,
+  "seed": "2026-10-17",
+  "pattern": "wedge-6",
+  "generatedAt": "2026-10-17T04:11:56Z",
+  "grid": [
+    "##ACE",
+    "#PLAY",
+    "ALIKE",
+    "GAVE#",
+    "ONE##"
+  ],
+  "numbers": [
+    [
+      -1,
+      -1,
+      1,
+      2,
+      3
+    ],
+    [
+      -1,
+      4,
+      0,
+      0,
+      0
+    ],
+    [
+      5,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      6,
+      0,
+      0,
+      0,
+      -1
+    ],
+    [
+      7,
+      0,
+      0,
+      -1,
+      -1
+    ]
+  ],
+  "entries": [
+    {
+      "number": 1,
+      "direction": "across",
+      "row": 0,
+      "col": 2,
+      "length": 3,
+      "answer": "QUNF",
+      "clue": "Top pilot"
+    },
+    {
+      "number": 1,
+      "direction": "down",
+      "row": 0,
+      "col": 2,
+      "length": 5,
+      "answer": "QUxJVkU=",
+      "clue": "Living"
+    },
+    {
+      "number": 2,
+      "direction": "down",
+      "row": 0,
+      "col": 3,
+      "length": 4,
+      "answer": "Q0FLRQ==",
+      "clue": "Birthday dessert"
+    },
+    {
+      "number": 3,
+      "direction": "down",
+      "row": 0,
+      "col": 4,
+      "length": 3,
+      "answer": "RVlF",
+      "clue": "It may be keen"
+    },
+    {
+      "number": 4,
+      "direction": "across",
+      "row": 1,
+      "col": 1,
+      "length": 4,
+      "answer": "UExBWQ==",
+      "clue": "Have fun"
+    },
+    {
+      "number": 4,
+      "direction": "down",
+      "row": 1,
+      "col": 1,
+      "length": 4,
+      "answer": "UExBTg==",
+      "clue": "Scheme"
+    },
+    {
+      "number": 5,
+      "direction": "across",
+      "row": 2,
+      "col": 0,
+      "length": 5,
+      "answer": "QUxJS0U=",
+      "clue": "The same"
+    },
+    {
+      "number": 5,
+      "direction": "down",
+      "row": 2,
+      "col": 0,
+      "length": 3,
+      "answer": "QUdP",
+      "clue": "In the past"
+    },
+    {
+      "number": 6,
+      "direction": "across",
+      "row": 3,
+      "col": 0,
+      "length": 4,
+      "answer": "R0FWRQ==",
+      "clue": "Handed over"
+    },
+    {
+      "number": 7,
+      "direction": "across",
+      "row": 4,
+      "col": 0,
+      "length": 3,
+      "answer": "T05F",
+      "clue": "Single unit"
+    }
+  ]
+}
