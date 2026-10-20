@@ -1,0 +1,144 @@
+{
+  "format": 1,
+  "id": "2026-10-20-5",
+  "size": 5,
+  "seed": "2026-10-20",
+  "pattern": "pinwheel-4",
+  "generatedAt": "2026-10-20T04:38:02Z",
+  "grid": [
+    "TEST#",
+    "ORCA#",
+    "PRESS",
+    "#ONTO",
+    "#REED"
+  ],
+  "numbers": [
+    [
+      1,
+      2,
+      3,
+      4,
+      -1
+    ],
+    [
+      5,
+      0,
+      0,
+      0,
+      -1
+    ],
+    [
+      6,
+      0,
+      0,
+      0,
+      7
+    ],
+    [
+      -1,
+      8,
+      0,
+      0,
+      0
+    ],
+    [
+      -1,
+      9,
+      0,
+      0,
+      0
+    ]
+  ],
+  "entries": [
+    {
+      "number": 1,
+      "direction": "across",
+      "row": 0,
+      "col": 0,
+      "length": 4,
+      "answer": "VEVTVA==",
+      "clue": "Quiz"
+    },
+    {
+      "number": 1,
+      "direction": "down",
+      "row": 0,
+      "col": 0,
+      "length": 3,
+      "answer": "VE9Q",
+      "clue": "Highest point"
+    },
+    {
+      "number": 2,
+      "direction": "down",
+      "row": 0,
+      "col": 1,
+      "length": 5,
+      "answer": "RVJST1I=",
+      "clue": "Mistake"
+    },
+    {
+      "number": 3,
+      "direction": "down",
+      "row": 0,
+      "col": 2,
+      "length": 5,
+      "answer": "U0NFTkU=",
+      "clue": "Movie segment"
+    },
+    {
+      "number": 4,
+      "direction": "down",
+      "row": 0,
+      "col": 3,
+      "length": 5,
+      "answer": "VEFTVEU=",
+      "clue": "Flavor sense"
+    },
+    {
+      "number": 5,
+      "direction": "across",
+      "row": 1,
+      "col": 0,
+      "length": 4,
+      "answer": "T1JDQQ==",
+      "clue": "Killer whale"
+    },
+    {
+      "number": 6,
+      "direction": "across",
+      "row": 2,
+      "col": 0,
+      "length": 5,
+      "answer": "UFJFU1M=",
+      "clue": "The papers"
+    },
+    {
+      "number": 7,
+      "direction": "down",
+      "row": 2,
+      "col": 4,
+      "length": 3,
+      "answer": "U09E",
+      "clue": "Lawn patch"
+    },
+    {
+      "number": 8,
+      "direction": "across",
+      "row": 3,
+      "col": 1,
+      "length": 4,
+      "answer": "T05UTw==",
+      "clue": "Atop"
+    },
+    {
+      "number": 9,
+      "direction": "across",
+      "row": 4,
+      "col": 1,
+      "length": 4,
+      "answer": "UkVFRA==",
+      "clue": "Marsh plant"
+    }
+  ]
+}
