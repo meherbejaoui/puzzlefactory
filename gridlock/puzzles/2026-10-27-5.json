@@ -1,0 +1,144 @@
+{
+  "format": 1,
+  "id": "2026-10-27-5",
+  "size": 5,
+  "seed": "2026-10-27",
+  "pattern": "stairs-4",
+  "generatedAt": "2026-10-27T04:50:22Z",
+  "grid": [
+    "##SUM",
+    "CAUSE",
+    "ANGER",
+    "STARE",
+    "HER##"
+  ],
+  "numbers": [
+    [
+      -1,
+      -1,
+      1,
+      2,
+      3
+    ],
+    [
+      4,
+      5,
+      0,
+      0,
+      0
+    ],
+    [
+      6,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      7,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      8,
+      0,
+      0,
+      -1,
+      -1
+    ]
+  ],
+  "entries": [
+    {
+      "number": 1,
+      "direction": "across",
+      "row": 0,
+      "col": 2,
+      "length": 3,
+      "answer": "U1VN",
+      "clue": "Total"
+    },
+    {
+      "number": 1,
+      "direction": "down",
+      "row": 0,
+      "col": 2,
+      "length": 5,
+      "answer": "U1VHQVI=",
+      "clue": "Sweetener"
+    },
+    {
+      "number": 2,
+      "direction": "down",
+      "row": 0,
+      "col": 3,
+      "length": 4,
+      "answer": "VVNFUg==",
+      "clue": "App customer"
+    },
+    {
+      "number": 3,
+      "direction": "down",
+      "row": 0,
+      "col": 4,
+      "length": 4,
+      "answer": "TUVSRQ==",
+      "clue": "Nothing more than"
+    },
+    {
+      "number": 4,
+      "direction": "across",
+      "row": 1,
+      "col": 0,
+      "length": 5,
+      "answer": "Q0FVU0U=",
+      "clue": "Reason"
+    },
+    {
+      "number": 4,
+      "direction": "down",
+      "row": 1,
+      "col": 0,
+      "length": 4,
+      "answer": "Q0FTSA==",
+      "clue": "Paper money"
+    },
+    {
+      "number": 5,
+      "direction": "down",
+      "row": 1,
+      "col": 1,
+      "length": 4,
+      "answer": "QU5URQ==",
+      "clue": "Poker starter"
+    },
+    {
+      "number": 6,
+      "direction": "across",
+      "row": 2,
+      "col": 0,
+      "length": 5,
+      "answer": "QU5HRVI=",
+      "clue": "Rage"
+    },
+    {
+      "number": 7,
+      "direction": "across",
+      "row": 3,
+      "col": 0,
+      "length": 5,
+      "answer": "U1RBUkU=",
+      "clue": "Look fixedly"
+    },
+    {
+      "number": 8,
+      "direction": "across",
+      "row": 4,
+      "col": 0,
+      "length": 3,
+      "answer": "SEVS",
+      "clue": "Belonging to a woman"
+    }
+  ]
+}
