@@ -1,0 +1,144 @@
+{
+  "format": 1,
+  "id": "2026-11-01-5",
+  "size": 5,
+  "seed": "2026-11-01",
+  "pattern": "stairs-4",
+  "generatedAt": "2026-11-01T05:49:41Z",
+  "grid": [
+    "##GAS",
+    "CRIME",
+    "RAVEN",
+    "AGENT",
+    "MEN##"
+  ],
+  "numbers": [
+    [
+      -1,
+      -1,
+      1,
+      2,
+      3
+    ],
+    [
+      4,
+      5,
+      0,
+      0,
+      0
+    ],
+    [
+      6,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      7,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      8,
+      0,
+      0,
+      -1,
+      -1
+    ]
+  ],
+  "entries": [
+    {
+      "number": 1,
+      "direction": "across",
+      "row": 0,
+      "col": 2,
+      "length": 3,
+      "answer": "R0FT",
+      "clue": "Fuel at the pump"
+    },
+    {
+      "number": 1,
+      "direction": "down",
+      "row": 0,
+      "col": 2,
+      "length": 5,
+      "answer": "R0lWRU4=",
+      "clue": "Handed over"
+    },
+    {
+      "number": 2,
+      "direction": "down",
+      "row": 0,
+      "col": 3,
+      "length": 4,
+      "answer": "QU1FTg==",
+      "clue": "Prayer's end"
+    },
+    {
+      "number": 3,
+      "direction": "down",
+      "row": 0,
+      "col": 4,
+      "length": 4,
+      "answer": "U0VOVA==",
+      "clue": "Dispatched"
+    },
+    {
+      "number": 4,
+      "direction": "across",
+      "row": 1,
+      "col": 0,
+      "length": 5,
+      "answer": "Q1JJTUU=",
+      "clue": "Law breaking"
+    },
+    {
+      "number": 4,
+      "direction": "down",
+      "row": 1,
+      "col": 0,
+      "length": 4,
+      "answer": "Q1JBTQ==",
+      "clue": "Study frantically"
+    },
+    {
+      "number": 5,
+      "direction": "down",
+      "row": 1,
+      "col": 1,
+      "length": 4,
+      "answer": "UkFHRQ==",
+      "clue": "Fury"
+    },
+    {
+      "number": 6,
+      "direction": "across",
+      "row": 2,
+      "col": 0,
+      "length": 5,
+      "answer": "UkFWRU4=",
+      "clue": "Black bird of poetry"
+    },
+    {
+      "number": 7,
+      "direction": "across",
+      "row": 3,
+      "col": 0,
+      "length": 5,
+      "answer": "QUdFTlQ=",
+      "clue": "Spy"
+    },
+    {
+      "number": 8,
+      "direction": "across",
+      "row": 4,
+      "col": 0,
+      "length": 3,
+      "answer": "TUVO",
+      "clue": "Grown males"
+    }
+  ]
+}
