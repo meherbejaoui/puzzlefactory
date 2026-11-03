@@ -1,0 +1,144 @@
+{
+  "format": 1,
+  "id": "2026-11-03-5",
+  "size": 5,
+  "seed": "2026-11-03",
+  "pattern": "stairs-4",
+  "generatedAt": "2026-11-03T06:31:37Z",
+  "grid": [
+    "##VAN",
+    "AWAKE",
+    "LOGIC",
+    "TRUNK",
+    "ONE##"
+  ],
+  "numbers": [
+    [
+      -1,
+      -1,
+      1,
+      2,
+      3
+    ],
+    [
+      4,
+      5,
+      0,
+      0,
+      0
+    ],
+    [
+      6,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      7,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      8,
+      0,
+      0,
+      -1,
+      -1
+    ]
+  ],
+  "entries": [
+    {
+      "number": 1,
+      "direction": "across",
+      "row": 0,
+      "col": 2,
+      "length": 3,
+      "answer": "VkFO",
+      "clue": "Delivery vehicle"
+    },
+    {
+      "number": 1,
+      "direction": "down",
+      "row": 0,
+      "col": 2,
+      "length": 5,
+      "answer": "VkFHVUU=",
+      "clue": "Not clear"
+    },
+    {
+      "number": 2,
+      "direction": "down",
+      "row": 0,
+      "col": 3,
+      "length": 4,
+      "answer": "QUtJTg==",
+      "clue": "Similar"
+    },
+    {
+      "number": 3,
+      "direction": "down",
+      "row": 0,
+      "col": 4,
+      "length": 4,
+      "answer": "TkVDSw==",
+      "clue": "Head's support"
+    },
+    {
+      "number": 4,
+      "direction": "across",
+      "row": 1,
+      "col": 0,
+      "length": 5,
+      "answer": "QVdBS0U=",
+      "clue": "Not sleeping"
+    },
+    {
+      "number": 4,
+      "direction": "down",
+      "row": 1,
+      "col": 0,
+      "length": 4,
+      "answer": "QUxUTw==",
+      "clue": "Choir voice"
+    },
+    {
+      "number": 5,
+      "direction": "down",
+      "row": 1,
+      "col": 1,
+      "length": 4,
+      "answer": "V09STg==",
+      "clue": "Used a lot"
+    },
+    {
+      "number": 6,
+      "direction": "across",
+      "row": 2,
+      "col": 0,
+      "length": 5,
+      "answer": "TE9HSUM=",
+      "clue": "Reasoning"
+    },
+    {
+      "number": 7,
+      "direction": "across",
+      "row": 3,
+      "col": 0,
+      "length": 5,
+      "answer": "VFJVTks=",
+      "clue": "Car storage"
+    },
+    {
+      "number": 8,
+      "direction": "across",
+      "row": 4,
+      "col": 0,
+      "length": 3,
+      "answer": "T05F",
+      "clue": "Single unit"
+    }
+  ]
+}
