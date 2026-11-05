@@ -1,0 +1,144 @@
+{
+  "format": 1,
+  "id": "2026-11-05-5",
+  "size": 5,
+  "seed": "2026-11-05",
+  "pattern": "pinwheel-4",
+  "generatedAt": "2026-11-05T06:29:12Z",
+  "grid": [
+    "DOVE#",
+    "APEX#",
+    "DENIM",
+    "#ROLE",
+    "#AMEN"
+  ],
+  "numbers": [
+    [
+      1,
+      2,
+      3,
+      4,
+      -1
+    ],
+    [
+      5,
+      0,
+      0,
+      0,
+      -1
+    ],
+    [
+      6,
+      0,
+      0,
+      0,
+      7
+    ],
+    [
+      -1,
+      8,
+      0,
+      0,
+      0
+    ],
+    [
+      -1,
+      9,
+      0,
+      0,
+      0
+    ]
+  ],
+  "entries": [
+    {
+      "number": 1,
+      "direction": "across",
+      "row": 0,
+      "col": 0,
+      "length": 4,
+      "answer": "RE9WRQ==",
+      "clue": "Peace bird"
+    },
+    {
+      "number": 1,
+      "direction": "down",
+      "row": 0,
+      "col": 0,
+      "length": 3,
+      "answer": "REFE",
+      "clue": "Father"
+    },
+    {
+      "number": 2,
+      "direction": "down",
+      "row": 0,
+      "col": 1,
+      "length": 5,
+      "answer": "T1BFUkE=",
+      "clue": "Sung drama"
+    },
+    {
+      "number": 3,
+      "direction": "down",
+      "row": 0,
+      "col": 2,
+      "length": 5,
+      "answer": "VkVOT00=",
+      "clue": "Snake's poison"
+    },
+    {
+      "number": 4,
+      "direction": "down",
+      "row": 0,
+      "col": 3,
+      "length": 5,
+      "answer": "RVhJTEU=",
+      "clue": "Forced departure"
+    },
+    {
+      "number": 5,
+      "direction": "across",
+      "row": 1,
+      "col": 0,
+      "length": 4,
+      "answer": "QVBFWA==",
+      "clue": "Peak"
+    },
+    {
+      "number": 6,
+      "direction": "across",
+      "row": 2,
+      "col": 0,
+      "length": 5,
+      "answer": "REVOSU0=",
+      "clue": "Jeans fabric"
+    },
+    {
+      "number": 7,
+      "direction": "down",
+      "row": 2,
+      "col": 4,
+      "length": 3,
+      "answer": "TUVO",
+      "clue": "Grown males"
+    },
+    {
+      "number": 8,
+      "direction": "across",
+      "row": 3,
+      "col": 1,
+      "length": 4,
+      "answer": "Uk9MRQ==",
+      "clue": "Actor's part"
+    },
+    {
+      "number": 9,
+      "direction": "across",
+      "row": 4,
+      "col": 1,
+      "length": 4,
+      "answer": "QU1FTg==",
+      "clue": "Prayer's end"
+    }
+  ]
+}

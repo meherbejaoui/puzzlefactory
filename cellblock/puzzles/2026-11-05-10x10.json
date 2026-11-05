@@ -1,0 +1,81 @@
+{
+  "format": 1,
+  "id": "2026-11-05-10x10",
+  "kind": "daily",
+  "title": null,
+  "rows": 10,
+  "cols": 10,
+  "rowClues": [
+    [],
+    [
+      1,
+      1
+    ],
+    [
+      3
+    ],
+    [
+      1,
+      2
+    ],
+    [
+      8
+    ],
+    [
+      4,
+      4
+    ],
+    [
+      8
+    ],
+    [
+      7
+    ],
+    [
+      3
+    ],
+    []
+  ],
+  "colClues": [
+    [
+      1
+    ],
+    [
+      1,
+      5
+    ],
+    [
+      4
+    ],
+    [
+      5
+    ],
+    [
+      1,
+      3
+    ],
+    [
+      5
+    ],
+    [
+      4
+    ],
+    [
+      6
+    ],
+    [
+      6
+    ],
+    [
+      1
+    ]
+  ],
+  "solution": "AABAgAHAQYB/gPeAf4B/ABwAAAA=",
+  "difficulty": {
+    "passes": 30,
+    "grade": "medium"
+  },
+  "seed": "2026-11-05",
+  "generatedAt": "2026-11-05T06:29:12Z",
+  "slug": null
+}
