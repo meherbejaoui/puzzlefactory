@@ -1,0 +1,144 @@
+{
+  "format": 1,
+  "id": "2026-11-09-5",
+  "size": 5,
+  "seed": "2026-11-09",
+  "pattern": "corners-4",
+  "generatedAt": "2026-11-09T06:02:01Z",
+  "grid": [
+    "#GAP#",
+    "FRUIT",
+    "LADLE",
+    "UNION",
+    "#DOT#"
+  ],
+  "numbers": [
+    [
+      -1,
+      1,
+      2,
+      3,
+      -1
+    ],
+    [
+      4,
+      0,
+      0,
+      0,
+      5
+    ],
+    [
+      6,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      7,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      -1,
+      8,
+      0,
+      0,
+      -1
+    ]
+  ],
+  "entries": [
+    {
+      "number": 1,
+      "direction": "across",
+      "row": 0,
+      "col": 1,
+      "length": 3,
+      "answer": "R0FQ",
+      "clue": "Space between"
+    },
+    {
+      "number": 1,
+      "direction": "down",
+      "row": 0,
+      "col": 1,
+      "length": 5,
+      "answer": "R1JBTkQ=",
+      "clue": "Magnificent"
+    },
+    {
+      "number": 2,
+      "direction": "down",
+      "row": 0,
+      "col": 2,
+      "length": 5,
+      "answer": "QVVESU8=",
+      "clue": "Sound part"
+    },
+    {
+      "number": 3,
+      "direction": "down",
+      "row": 0,
+      "col": 3,
+      "length": 5,
+      "answer": "UElMT1Q=",
+      "clue": "Cockpit boss"
+    },
+    {
+      "number": 4,
+      "direction": "across",
+      "row": 1,
+      "col": 0,
+      "length": 5,
+      "answer": "RlJVSVQ=",
+      "clue": "Apple or plum"
+    },
+    {
+      "number": 4,
+      "direction": "down",
+      "row": 1,
+      "col": 0,
+      "length": 3,
+      "answer": "RkxV",
+      "clue": "Winter bug"
+    },
+    {
+      "number": 5,
+      "direction": "down",
+      "row": 1,
+      "col": 4,
+      "length": 3,
+      "answer": "VEVO",
+      "clue": "Digits on two hands"
+    },
+    {
+      "number": 6,
+      "direction": "across",
+      "row": 2,
+      "col": 0,
+      "length": 5,
+      "answer": "TEFETEU=",
+      "clue": "Soup server"
+    },
+    {
+      "number": 7,
+      "direction": "across",
+      "row": 3,
+      "col": 0,
+      "length": 5,
+      "answer": "VU5JT04=",
+      "clue": "Workers' group"
+    },
+    {
+      "number": 8,
+      "direction": "across",
+      "row": 4,
+      "col": 1,
+      "length": 3,
+      "answer": "RE9U",
+      "clue": "Small round mark"
+    }
+  ]
+}
