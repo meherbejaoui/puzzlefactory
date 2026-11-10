@@ -1,0 +1,144 @@
+{
+  "format": 1,
+  "id": "2026-11-10-5",
+  "size": 5,
+  "seed": "2026-11-10",
+  "pattern": "pinwheel-4",
+  "generatedAt": "2026-11-10T07:04:15Z",
+  "grid": [
+    "HARP#",
+    "ORAL#",
+    "TODAY",
+    "#MANE",
+    "#AREA"
+  ],
+  "numbers": [
+    [
+      1,
+      2,
+      3,
+      4,
+      -1
+    ],
+    [
+      5,
+      0,
+      0,
+      0,
+      -1
+    ],
+    [
+      6,
+      0,
+      0,
+      0,
+      7
+    ],
+    [
+      -1,
+      8,
+      0,
+      0,
+      0
+    ],
+    [
+      -1,
+      9,
+      0,
+      0,
+      0
+    ]
+  ],
+  "entries": [
+    {
+      "number": 1,
+      "direction": "across",
+      "row": 0,
+      "col": 0,
+      "length": 4,
+      "answer": "SEFSUA==",
+      "clue": "Angel's instrument"
+    },
+    {
+      "number": 1,
+      "direction": "down",
+      "row": 0,
+      "col": 0,
+      "length": 3,
+      "answer": "SE9U",
+      "clue": "Very warm"
+    },
+    {
+      "number": 2,
+      "direction": "down",
+      "row": 0,
+      "col": 1,
+      "length": 5,
+      "answer": "QVJPTUE=",
+      "clue": "Kitchen scent"
+    },
+    {
+      "number": 3,
+      "direction": "down",
+      "row": 0,
+      "col": 2,
+      "length": 5,
+      "answer": "UkFEQVI=",
+      "clue": "Blip detector"
+    },
+    {
+      "number": 4,
+      "direction": "down",
+      "row": 0,
+      "col": 3,
+      "length": 5,
+      "answer": "UExBTkU=",
+      "clue": "Jet"
+    },
+    {
+      "number": 5,
+      "direction": "across",
+      "row": 1,
+      "col": 0,
+      "length": 4,
+      "answer": "T1JBTA==",
+      "clue": "Spoken"
+    },
+    {
+      "number": 6,
+      "direction": "across",
+      "row": 2,
+      "col": 0,
+      "length": 5,
+      "answer": "VE9EQVk=",
+      "clue": "This very day"
+    },
+    {
+      "number": 7,
+      "direction": "down",
+      "row": 2,
+      "col": 4,
+      "length": 3,
+      "answer": "WUVB",
+      "clue": "Vote of support"
+    },
+    {
+      "number": 8,
+      "direction": "across",
+      "row": 3,
+      "col": 1,
+      "length": 4,
+      "answer": "TUFORQ==",
+      "clue": "Lion's hair"
+    },
+    {
+      "number": 9,
+      "direction": "across",
+      "row": 4,
+      "col": 1,
+      "length": 4,
+      "answer": "QVJFQQ==",
+      "clue": "Region"
+    }
+  ]
+}
