@@ -1,0 +1,144 @@
+{
+  "format": 1,
+  "id": "2026-11-13-5",
+  "size": 5,
+  "seed": "2026-11-13",
+  "pattern": "corners-4",
+  "generatedAt": "2026-11-13T06:25:21Z",
+  "grid": [
+    "#GET#",
+    "HEART",
+    "UNTIE",
+    "GREEN",
+    "#END#"
+  ],
+  "numbers": [
+    [
+      -1,
+      1,
+      2,
+      3,
+      -1
+    ],
+    [
+      4,
+      0,
+      0,
+      0,
+      5
+    ],
+    [
+      6,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      7,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      -1,
+      8,
+      0,
+      0,
+      -1
+    ]
+  ],
+  "entries": [
+    {
+      "number": 1,
+      "direction": "across",
+      "row": 0,
+      "col": 1,
+      "length": 3,
+      "answer": "R0VU",
+      "clue": "Obtain"
+    },
+    {
+      "number": 1,
+      "direction": "down",
+      "row": 0,
+      "col": 1,
+      "length": 5,
+      "answer": "R0VOUkU=",
+      "clue": "Category of art"
+    },
+    {
+      "number": 2,
+      "direction": "down",
+      "row": 0,
+      "col": 2,
+      "length": 5,
+      "answer": "RUFURU4=",
+      "clue": "Consumed"
+    },
+    {
+      "number": 3,
+      "direction": "down",
+      "row": 0,
+      "col": 3,
+      "length": 5,
+      "answer": "VFJJRUQ=",
+      "clue": "Attempted"
+    },
+    {
+      "number": 4,
+      "direction": "across",
+      "row": 1,
+      "col": 0,
+      "length": 5,
+      "answer": "SEVBUlQ=",
+      "clue": "Valentine symbol"
+    },
+    {
+      "number": 4,
+      "direction": "down",
+      "row": 1,
+      "col": 0,
+      "length": 3,
+      "answer": "SFVH",
+      "clue": "Warm embrace"
+    },
+    {
+      "number": 5,
+      "direction": "down",
+      "row": 1,
+      "col": 4,
+      "length": 3,
+      "answer": "VEVO",
+      "clue": "Digits on two hands"
+    },
+    {
+      "number": 6,
+      "direction": "across",
+      "row": 2,
+      "col": 0,
+      "length": 5,
+      "answer": "VU5USUU=",
+      "clue": "Loosen a knot"
+    },
+    {
+      "number": 7,
+      "direction": "across",
+      "row": 3,
+      "col": 0,
+      "length": 5,
+      "answer": "R1JFRU4=",
+      "clue": "Grass color"
+    },
+    {
+      "number": 8,
+      "direction": "across",
+      "row": 4,
+      "col": 1,
+      "length": 3,
+      "answer": "RU5E",
+      "clue": "Finish"
+    }
+  ]
+}
