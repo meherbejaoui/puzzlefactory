@@ -1,0 +1,144 @@
+{
+  "format": 1,
+  "id": "2026-11-15-5",
+  "size": 5,
+  "seed": "2026-11-15",
+  "pattern": "stairs-4",
+  "generatedAt": "2026-11-15T06:12:06Z",
+  "grid": [
+    "##MAN",
+    "SHAKE",
+    "OASIS",
+    "FRONT",
+    "TEN##"
+  ],
+  "numbers": [
+    [
+      -1,
+      -1,
+      1,
+      2,
+      3
+    ],
+    [
+      4,
+      5,
+      0,
+      0,
+      0
+    ],
+    [
+      6,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      7,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      8,
+      0,
+      0,
+      -1,
+      -1
+    ]
+  ],
+  "entries": [
+    {
+      "number": 1,
+      "direction": "across",
+      "row": 0,
+      "col": 2,
+      "length": 3,
+      "answer": "TUFO",
+      "clue": "Grown male"
+    },
+    {
+      "number": 1,
+      "direction": "down",
+      "row": 0,
+      "col": 2,
+      "length": 5,
+      "answer": "TUFTT04=",
+      "clue": "Bricklayer"
+    },
+    {
+      "number": 2,
+      "direction": "down",
+      "row": 0,
+      "col": 3,
+      "length": 4,
+      "answer": "QUtJTg==",
+      "clue": "Similar"
+    },
+    {
+      "number": 3,
+      "direction": "down",
+      "row": 0,
+      "col": 4,
+      "length": 4,
+      "answer": "TkVTVA==",
+      "clue": "Bird's home"
+    },
+    {
+      "number": 4,
+      "direction": "across",
+      "row": 1,
+      "col": 0,
+      "length": 5,
+      "answer": "U0hBS0U=",
+      "clue": "Thick drink"
+    },
+    {
+      "number": 4,
+      "direction": "down",
+      "row": 1,
+      "col": 0,
+      "length": 4,
+      "answer": "U09GVA==",
+      "clue": "Not hard"
+    },
+    {
+      "number": 5,
+      "direction": "down",
+      "row": 1,
+      "col": 1,
+      "length": 4,
+      "answer": "SEFSRQ==",
+      "clue": "Fast hopper"
+    },
+    {
+      "number": 6,
+      "direction": "across",
+      "row": 2,
+      "col": 0,
+      "length": 5,
+      "answer": "T0FTSVM=",
+      "clue": "Desert refuge"
+    },
+    {
+      "number": 7,
+      "direction": "across",
+      "row": 3,
+      "col": 0,
+      "length": 5,
+      "answer": "RlJPTlQ=",
+      "clue": "Ahead part"
+    },
+    {
+      "number": 8,
+      "direction": "across",
+      "row": 4,
+      "col": 0,
+      "length": 3,
+      "answer": "VEVO",
+      "clue": "Digits on two hands"
+    }
+  ]
+}
