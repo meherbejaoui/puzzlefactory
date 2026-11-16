@@ -1,0 +1,144 @@
+{
+  "format": 1,
+  "id": "2026-11-16-5",
+  "size": 5,
+  "seed": "2026-11-16",
+  "pattern": "wedge-6",
+  "generatedAt": "2026-11-16T06:09:56Z",
+  "grid": [
+    "##ACE",
+    "#WREN",
+    "WORLD",
+    "ORAL#",
+    "KEY##"
+  ],
+  "numbers": [
+    [
+      -1,
+      -1,
+      1,
+      2,
+      3
+    ],
+    [
+      -1,
+      4,
+      0,
+      0,
+      0
+    ],
+    [
+      5,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      6,
+      0,
+      0,
+      0,
+      -1
+    ],
+    [
+      7,
+      0,
+      0,
+      -1,
+      -1
+    ]
+  ],
+  "entries": [
+    {
+      "number": 1,
+      "direction": "across",
+      "row": 0,
+      "col": 2,
+      "length": 3,
+      "answer": "QUNF",
+      "clue": "Top pilot"
+    },
+    {
+      "number": 1,
+      "direction": "down",
+      "row": 0,
+      "col": 2,
+      "length": 5,
+      "answer": "QVJSQVk=",
+      "clue": "Ordered display"
+    },
+    {
+      "number": 2,
+      "direction": "down",
+      "row": 0,
+      "col": 3,
+      "length": 4,
+      "answer": "Q0VMTA==",
+      "clue": "Body's building block"
+    },
+    {
+      "number": 3,
+      "direction": "down",
+      "row": 0,
+      "col": 4,
+      "length": 3,
+      "answer": "RU5E",
+      "clue": "Finish"
+    },
+    {
+      "number": 4,
+      "direction": "across",
+      "row": 1,
+      "col": 1,
+      "length": 4,
+      "answer": "V1JFTg==",
+      "clue": "Small songbird"
+    },
+    {
+      "number": 4,
+      "direction": "down",
+      "row": 1,
+      "col": 1,
+      "length": 4,
+      "answer": "V09SRQ==",
+      "clue": "Had on"
+    },
+    {
+      "number": 5,
+      "direction": "across",
+      "row": 2,
+      "col": 0,
+      "length": 5,
+      "answer": "V09STEQ=",
+      "clue": "The whole globe"
+    },
+    {
+      "number": 5,
+      "direction": "down",
+      "row": 2,
+      "col": 0,
+      "length": 3,
+      "answer": "V09L",
+      "clue": "Stir-fry pan"
+    },
+    {
+      "number": 6,
+      "direction": "across",
+      "row": 3,
+      "col": 0,
+      "length": 4,
+      "answer": "T1JBTA==",
+      "clue": "Spoken"
+    },
+    {
+      "number": 7,
+      "direction": "across",
+      "row": 4,
+      "col": 0,
+      "length": 3,
+      "answer": "S0VZ",
+      "clue": "Lock opener"
+    }
+  ]
+}
