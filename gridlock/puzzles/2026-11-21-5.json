@@ -1,0 +1,144 @@
+{
+  "format": 1,
+  "id": "2026-11-21-5",
+  "size": 5,
+  "seed": "2026-11-21",
+  "pattern": "stairs-4",
+  "generatedAt": "2026-11-21T06:54:46Z",
+  "grid": [
+    "##CAN",
+    "GLARE",
+    "RADIO",
+    "OCEAN",
+    "WET##"
+  ],
+  "numbers": [
+    [
+      -1,
+      -1,
+      1,
+      2,
+      3
+    ],
+    [
+      4,
+      5,
+      0,
+      0,
+      0
+    ],
+    [
+      6,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      7,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      8,
+      0,
+      0,
+      -1,
+      -1
+    ]
+  ],
+  "entries": [
+    {
+      "number": 1,
+      "direction": "across",
+      "row": 0,
+      "col": 2,
+      "length": 3,
+      "answer": "Q0FO",
+      "clue": "Soda container"
+    },
+    {
+      "number": 1,
+      "direction": "down",
+      "row": 0,
+      "col": 2,
+      "length": 5,
+      "answer": "Q0FERVQ=",
+      "clue": "Military trainee"
+    },
+    {
+      "number": 2,
+      "direction": "down",
+      "row": 0,
+      "col": 3,
+      "length": 4,
+      "answer": "QVJJQQ==",
+      "clue": "Opera solo"
+    },
+    {
+      "number": 3,
+      "direction": "down",
+      "row": 0,
+      "col": 4,
+      "length": 4,
+      "answer": "TkVPTg==",
+      "clue": "Bright sign gas"
+    },
+    {
+      "number": 4,
+      "direction": "across",
+      "row": 1,
+      "col": 0,
+      "length": 5,
+      "answer": "R0xBUkU=",
+      "clue": "Harsh light"
+    },
+    {
+      "number": 4,
+      "direction": "down",
+      "row": 1,
+      "col": 0,
+      "length": 4,
+      "answer": "R1JPVw==",
+      "clue": "Get bigger"
+    },
+    {
+      "number": 5,
+      "direction": "down",
+      "row": 1,
+      "col": 1,
+      "length": 4,
+      "answer": "TEFDRQ==",
+      "clue": "Delicate fabric"
+    },
+    {
+      "number": 6,
+      "direction": "across",
+      "row": 2,
+      "col": 0,
+      "length": 5,
+      "answer": "UkFESU8=",
+      "clue": "Airwave receiver"
+    },
+    {
+      "number": 7,
+      "direction": "across",
+      "row": 3,
+      "col": 0,
+      "length": 5,
+      "answer": "T0NFQU4=",
+      "clue": "Vast blue expanse"
+    },
+    {
+      "number": 8,
+      "direction": "across",
+      "row": 4,
+      "col": 0,
+      "length": 3,
+      "answer": "V0VU",
+      "clue": "Soaked"
+    }
+  ]
+}
